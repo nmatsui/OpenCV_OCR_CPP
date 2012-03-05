@@ -1,0 +1,208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86732E1B1504D69000FD22BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86732E1A1504D69000FD22BE /* main.cpp */; };
+		86732E1D1504D69000FD22BE /* OpenCV_OCR.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86732E1C1504D69000FD22BE /* OpenCV_OCR.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		86732E141504D69000FD22BE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				86732E1D1504D69000FD22BE /* OpenCV_OCR.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		86732E161504D69000FD22BE /* OpenCV_OCR */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenCV_OCR; sourceTree = BUILT_PRODUCTS_DIR; };
+		86732E1A1504D69000FD22BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		86732E1C1504D69000FD22BE /* OpenCV_OCR.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OpenCV_OCR.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86732E131504D69000FD22BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86732E0B1504D68F00FD22BE = {
+			isa = PBXGroup;
+			children = (
+				86732E191504D69000FD22BE /* OpenCV_OCR */,
+				86732E171504D69000FD22BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86732E171504D69000FD22BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86732E161504D69000FD22BE /* OpenCV_OCR */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86732E191504D69000FD22BE /* OpenCV_OCR */ = {
+			isa = PBXGroup;
+			children = (
+				86732E1A1504D69000FD22BE /* main.cpp */,
+				86732E1C1504D69000FD22BE /* OpenCV_OCR.1 */,
+			);
+			path = OpenCV_OCR;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86732E151504D69000FD22BE /* OpenCV_OCR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86732E201504D69000FD22BE /* Build configuration list for PBXNativeTarget "OpenCV_OCR" */;
+			buildPhases = (
+				86732E121504D69000FD22BE /* Sources */,
+				86732E131504D69000FD22BE /* Frameworks */,
+				86732E141504D69000FD22BE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenCV_OCR;
+			productName = OpenCV_OCR;
+			productReference = 86732E161504D69000FD22BE /* OpenCV_OCR */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86732E0D1504D68F00FD22BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 86732E101504D68F00FD22BE /* Build configuration list for PBXProject "OpenCV_OCR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86732E0B1504D68F00FD22BE;
+			productRefGroup = 86732E171504D69000FD22BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86732E151504D69000FD22BE /* OpenCV_OCR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86732E121504D69000FD22BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86732E1B1504D69000FD22BE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		86732E1E1504D69000FD22BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		86732E1F1504D69000FD22BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		86732E211504D69000FD22BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86732E221504D69000FD22BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86732E101504D68F00FD22BE /* Build configuration list for PBXProject "OpenCV_OCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86732E1E1504D69000FD22BE /* Debug */,
+				86732E1F1504D69000FD22BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86732E201504D69000FD22BE /* Build configuration list for PBXNativeTarget "OpenCV_OCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86732E211504D69000FD22BE /* Debug */,
+				86732E221504D69000FD22BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86732E0D1504D68F00FD22BE /* Project object */;
+}
