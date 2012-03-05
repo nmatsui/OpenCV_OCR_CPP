@@ -4,8 +4,14 @@ OpenCV OCR
 OpenCV 2.3.1とTesseract OCR 3.0.1を用い、取得した画像をからテキストを抽出するサンプル
 
 以下のサイトを参照
-OpenCV        2.3.1  http://opencv.willowgarage.com/wiki/
-Tesseract OCT 3.0.1  http://code.google.com/p/tesseract-ocr/
+<table>
+<tr>
+<td>OpenCV</td><td>2.3.1</td><td>http://opencv.willowgarage.com/wiki/</td>
+</tr>
+<tr>
+<td>Tesseract OCT</td><td>3.0.1</td><td>http://code.google.com/p/tesseract-ocr/</td>
+</tr>
+</table>
 
 License
 -------
