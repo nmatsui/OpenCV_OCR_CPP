@@ -1,0 +1,18 @@
+# xcode 
+build/*
+*.pbxuser
+*.mode2v3
+*.mode1v3
+*.perspective
+*.perspectivev3
+*~.nib
+# ignore private
+xcuserdata
+project.xcworkspace
+
+# generic
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out

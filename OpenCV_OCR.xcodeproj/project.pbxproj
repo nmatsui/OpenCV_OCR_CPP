@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		86732E1B1504D69000FD22BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86732E1A1504D69000FD22BE /* main.cpp */; };
 		86732E1D1504D69000FD22BE /* OpenCV_OCR.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86732E1C1504D69000FD22BE /* OpenCV_OCR.1 */; };
+		86732E241504D79900FD22BE /* libtesseract.3.0.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 86732E231504D79900FD22BE /* libtesseract.3.0.1.dylib */; };
+		86732E261504D7AC00FD22BE /* libopencv_core.2.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 86732E251504D7AC00FD22BE /* libopencv_core.2.3.1.dylib */; };
+		86732E281504D7BA00FD22BE /* libopencv_highgui.2.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 86732E271504D7BA00FD22BE /* libopencv_highgui.2.3.1.dylib */; };
+		86732E2A1504D7C200FD22BE /* libopencv_imgproc.2.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 86732E291504D7C200FD22BE /* libopencv_imgproc.2.3.1.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +32,10 @@
 		86732E161504D69000FD22BE /* OpenCV_OCR */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenCV_OCR; sourceTree = BUILT_PRODUCTS_DIR; };
 		86732E1A1504D69000FD22BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		86732E1C1504D69000FD22BE /* OpenCV_OCR.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OpenCV_OCR.1; sourceTree = "<group>"; };
+		86732E231504D79900FD22BE /* libtesseract.3.0.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtesseract.3.0.1.dylib; path = usr/local/lib/libtesseract.3.0.1.dylib; sourceTree = SDKROOT; };
+		86732E251504D7AC00FD22BE /* libopencv_core.2.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.2.3.1.dylib; path = usr/local/lib/libopencv_core.2.3.1.dylib; sourceTree = SDKROOT; };
+		86732E271504D7BA00FD22BE /* libopencv_highgui.2.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.2.3.1.dylib; path = usr/local/lib/libopencv_highgui.2.3.1.dylib; sourceTree = SDKROOT; };
+		86732E291504D7C200FD22BE /* libopencv_imgproc.2.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.2.3.1.dylib; path = usr/local/lib/libopencv_imgproc.2.3.1.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86732E2A1504D7C200FD22BE /* libopencv_imgproc.2.3.1.dylib in Frameworks */,
+				86732E281504D7BA00FD22BE /* libopencv_highgui.2.3.1.dylib in Frameworks */,
+				86732E261504D7AC00FD22BE /* libopencv_core.2.3.1.dylib in Frameworks */,
+				86732E241504D79900FD22BE /* libtesseract.3.0.1.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +56,10 @@
 		86732E0B1504D68F00FD22BE = {
 			isa = PBXGroup;
 			children = (
+				86732E291504D7C200FD22BE /* libopencv_imgproc.2.3.1.dylib */,
+				86732E271504D7BA00FD22BE /* libopencv_highgui.2.3.1.dylib */,
+				86732E251504D7AC00FD22BE /* libopencv_core.2.3.1.dylib */,
+				86732E231504D79900FD22BE /* libtesseract.3.0.1.dylib */,
 				86732E191504D69000FD22BE /* OpenCV_OCR */,
 				86732E171504D69000FD22BE /* Products */,
 			);
@@ -143,6 +159,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -163,6 +180,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
 			};
@@ -172,6 +190,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -179,6 +198,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
